@@ -146,6 +146,7 @@ module.exports = {
             loader: require.resolve('eslint-loader'),
           },
         ],
+        exclude: /node_modules/,
         include: [paths.appSrc, /packages/],   
       },
       {
